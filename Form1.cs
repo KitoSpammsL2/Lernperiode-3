@@ -1,4 +1,8 @@
-namespace WinFormsApp1
+using System.Drawing.Drawing2D;
+using System.IO;
+using System.Text.Json;
+
+namespace Cookie
 {
     public partial class Form1 : Form
     {
@@ -9,7 +13,9 @@ namespace WinFormsApp1
         public Form1()
         {
             InitializeComponent();
+            LoadGame();
             AutoClickerTimer.Start();
+            this.FormClosing += Form1_FormClosing;
         }
 
         private void btnAutoClicker_Click(object sender, EventArgs e)
@@ -49,13 +55,59 @@ namespace WinFormsApp1
 
         private void lblCookieCount_Click(object sender, EventArgs e)
         {
-
         }
 
         private void lblAutoClickerCost_Click(object sender, EventArgs e)
         {
+        }
 
+        private void lblCookieCount_Click_1(object sender, EventArgs e)
+        {
+        }
+
+       
+        private void SaveGame()
+        {
+            GameState gameState = new GameState
+            {
+                CookieCount = cookieCount,
+                AutoClickerCount = autoClickerCount,
+                AutoClickerCost = autoClickerCost
+            };
+
+            string json = JsonSerializer.Serialize(gameState);
+            File.WriteAllText("savegame.json", json);
+        }
+
+      
+        private void LoadGame()
+        {
+            if (File.Exists("savegame.json"))
+            {
+                string json = File.ReadAllText("savegame.json");
+                GameState gameState = JsonSerializer.Deserialize<GameState>(json);
+
+                cookieCount = gameState.CookieCount;
+                autoClickerCount = gameState.AutoClickerCount;
+                autoClickerCost = gameState.AutoClickerCost;
+
+                UpdateCookieCountLabel();
+                lblAutoClickerCount.Text = $"Auto-Clicker: {autoClickerCount}";
+                lblAutoClickerCost.Text = $"Kosten: {autoClickerCost} Cookies";
+            }
+        }
+
+       
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            SaveGame();
+        }
+
+        private class GameState
+        {
+            public int CookieCount { get; set; }
+            public int AutoClickerCount { get; set; }
+            public int AutoClickerCost { get; set; }
         }
     }
 }
-
