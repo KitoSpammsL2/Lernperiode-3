@@ -5,7 +5,16 @@ Heute habe ich ein kleines Projekt gesucht und dabei an den Cookie Clicker gedac
 
 ## 17.1.2025
 
-- [ ] Visuelle Verbesserungen
+- [x] Visuelle Verbesserungen
 - [ ] Animationen hinzufügen, wenn man auf den Cookie clickt.
-- [ ] Speicher System hinzufügen
+- [x] Speicher System hinzufügen
 - [ ] Weitere Upgrades wie Doppelte clicks usw.
+
+Heute habe ich nur zwei Arbeitspakete geschafft, aber zusätzlich ein kleines anderes Projekt umgesetzt. In diesem Projekt habe ich einen Timer programmiert, der beim Start des Programms pro Sekunde eine Messagebox aufpoppen lässt. Die Arbeit mit Winforms macht mir grossen Spass, genauso wie das Cookie Clicker Projekt.
+
+## 24.1.2025
+
+- [ ] Ein Upgrade Ort machen
+- [ ] Ein Upgrade wo man eine Clicks verbessert
+- [ ] Das Auto-Clicker System verbessern und noch andere Autoclickers Hinzufügen
+- [ ] Weiter an der Visuellen verbesserungen Arbeiten wie der Auto-Clicker Button.
