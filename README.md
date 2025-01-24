@@ -14,10 +14,15 @@ Heute habe ich nur zwei Arbeitspakete geschafft, aber zusätzlich ein kleines an
 
 ## 24.1.2025
 
+
 - [ ] Ein Upgrade Ort machen
 - [ ] Ein Upgrade wo man eine Clicks verbessert
 - [ ] Das Auto-Clicker System verbessern und noch andere Autoclickers Hinzufügen
 - [ ] Weiter an der Visuellen verbesserungen Arbeiten wie der Auto-Clicker Button.
 
 
-Diese Lern-Periode hat mir sehr viel sapss gemcht
+
+## Reflexion
+![Screenshot 2025-01-24 102853](https://github.com/user-attachments/assets/c3c7085a-6b10-43b2-9bf9-09ba83759bf8)
+
+Diese Lern-Periode hat mir sehr viel sapss gemcht. Ich habe ein Cookie-Clicker Programmiert. Wenn an auf den Cookie Clickt bekommt man einen Cookie über und mit den Cookies kann man sich einen Autoclicker kaufen und der AutoClicker gibt 1 Cookie pro sekunde. Ich freue mich sehr auf die nächste Lern-Periode weiter mit Winforms zu Arbeiten mit Winfomrs fühlt es sich an aks würde man ein richtiges Spielprogrammieren und nicht nur wie auf der konsole. 
