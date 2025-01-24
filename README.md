@@ -18,3 +18,6 @@ Heute habe ich nur zwei Arbeitspakete geschafft, aber zusätzlich ein kleines an
 - [ ] Ein Upgrade wo man eine Clicks verbessert
 - [ ] Das Auto-Clicker System verbessern und noch andere Autoclickers Hinzufügen
 - [ ] Weiter an der Visuellen verbesserungen Arbeiten wie der Auto-Clicker Button.
+
+
+Diese Lern-Periode hat mir sehr viel sapss gemcht
